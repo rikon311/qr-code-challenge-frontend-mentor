@@ -49,5 +49,25 @@ body {
     color: hsl(218, 44%, 22%);
 }
 
+@media screen and (max-width: 500px) {
+   
+    .container {
+        width: 80%;
+    }
+
+    .container img {
+        margin: 17px 0 0;
+    }
+
+    .heading {
+        padding: 0 5%;
+    }
+
+    .content {
+        padding: 0 10% 10%;
+    }
+}
+
+
 
 
